@@ -1,5 +1,5 @@
 {
-  "name": "ve_cli",
+  "name": "vue2-cli",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,11 +7,15 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "save": "^2.5.0",
+    "vue": "^2.7.10",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^13.0.2",
+    "vue-template-compiler": "^2.6.14"
   }
 }
